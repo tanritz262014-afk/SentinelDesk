@@ -1,0 +1,12 @@
+timestamp,event_id,hostname,username,source_ip,logon_type,service_name,service_path,message
+2026-10-03T02:10:05Z,4625,WS-DEV-03,test.user,198.51.100.23,10,,,An account failed to log on. Failure reason: unknown user name or bad password.
+2026-10-03T02:10:25Z,4625,WS-DEV-03,test.user,198.51.100.23,10,,,An account failed to log on. Failure reason: unknown user name or bad password.
+2026-10-03T02:10:40Z,4625,WS-DEV-03,test.user,198.51.100.23,10,,,An account failed to log on. Failure reason: unknown user name or bad password.
+2026-10-03T02:11:06Z,4625,WS-DEV-03,test.user,198.51.100.23,10,,,An account failed to log on. Failure reason: unknown user name or bad password.
+2026-10-03T02:11:35Z,4625,WS-DEV-03,test.user,198.51.100.23,10,,,An account failed to log on. Failure reason: unknown user name or bad password.
+2026-10-03T02:12:25Z,4625,WS-DEV-03,test.user,198.51.100.23,10,,,An account failed to log on. Failure reason: unknown user name or bad password.
+2026-10-03T07:50:00Z,4624,WS-DEV-03,k.iyer,10.20.2.40,2,,,An account was successfully logged on.
+2026-10-03T08:20:00Z,4624,SRV-FILE-01,k.iyer,10.20.2.40,3,,,An account was successfully logged on.
+2026-10-03T11:05:33Z,7045,SRV-APP-02,,,,BackupAgent,C:\Program Files\BackupAgent\agent.exe,A service was installed in the system. Service start type: auto start.
+2026-10-03T11:40:00Z,4625,WS-DEV-03,k.iyer,10.20.2.40,2,,,An account failed to log on. Failure reason: unknown user name or bad password.
+2026-10-03T11:40:21Z,4624,WS-DEV-03,k.iyer,10.20.2.40,2,,,An account was successfully logged on.

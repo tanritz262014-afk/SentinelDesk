@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SentinelDesk - Mini SOC monitoring and incident response platform" />
+    <link rel="icon" type="image/svg+xml" href="/shield.svg" />
+    <title>SentinelDesk</title>
+    <script>
+      // Apply the saved theme (or the OS preference) before the page renders.
+      (function () {
+        var theme = null;
+        try {
+          theme = localStorage.getItem("sentineldesk.theme");
+        } catch (e) {}
+        if (theme !== "light" && theme !== "dark") {
+          theme = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

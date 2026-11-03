@@ -1,0 +1,119 @@
+{
+  "description": "SYNTHETIC demo data: an ordinary working day. A few mistyped passwords stay below the brute-force threshold. Detection rules should NOT alert on this file.",
+  "events": [
+    {
+      "timestamp": "2026-10-02T08:31:10Z",
+      "event_id": 4624,
+      "hostname": "WS-FIN-01",
+      "username": "j.doe",
+      "source_ip": "10.20.1.15",
+      "logon_type": "2",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-02T08:40:22Z",
+      "event_id": 4624,
+      "hostname": "WS-HR-02",
+      "username": "m.rao",
+      "source_ip": "10.20.1.31",
+      "logon_type": "2",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-02T08:58:45Z",
+      "event_id": 4625,
+      "hostname": "WS-SALES-04",
+      "username": "a.smith",
+      "source_ip": "10.20.1.22",
+      "logon_type": "2",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-02T08:59:12Z",
+      "event_id": 4625,
+      "hostname": "WS-SALES-04",
+      "username": "a.smith",
+      "source_ip": "10.20.1.22",
+      "logon_type": "2",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-02T08:59:40Z",
+      "event_id": 4624,
+      "hostname": "WS-SALES-04",
+      "username": "a.smith",
+      "source_ip": "10.20.1.22",
+      "logon_type": "2",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-02T09:05:03Z",
+      "event_id": 4624,
+      "hostname": "SRV-FILE-01",
+      "username": "j.doe",
+      "source_ip": "10.20.1.15",
+      "logon_type": "3",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-02T09:47:19Z",
+      "event_id": 4624,
+      "hostname": "SRV-FILE-01",
+      "username": "m.rao",
+      "source_ip": "10.20.1.31",
+      "logon_type": "3",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-02T10:12:55Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "svc_backup",
+      "source_ip": "10.20.5.10",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-02T10:13:02Z",
+      "event_id": 4624,
+      "hostname": "SRV-FILE-01",
+      "username": "svc_backup",
+      "source_ip": "10.20.5.10",
+      "logon_type": "3",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-02T12:30:00Z",
+      "event_id": 4634,
+      "hostname": "WS-HR-02",
+      "username": "m.rao",
+      "source_ip": null,
+      "message": "An account was logged off."
+    },
+    {
+      "timestamp": "2026-10-02T13:15:41Z",
+      "event_id": 4624,
+      "hostname": "WS-HR-02",
+      "username": "m.rao",
+      "source_ip": "10.20.1.31",
+      "logon_type": "7",
+      "message": "An account was successfully logged on (workstation unlock)."
+    },
+    {
+      "timestamp": "2026-10-02T17:45:08Z",
+      "event_id": 4634,
+      "hostname": "WS-FIN-01",
+      "username": "j.doe",
+      "source_ip": null,
+      "message": "An account was logged off."
+    },
+    {
+      "timestamp": "2026-10-02T18:02:30Z",
+      "event_id": 4634,
+      "hostname": "WS-SALES-04",
+      "username": "a.smith",
+      "source_ip": null,
+      "message": "An account was logged off."
+    }
+  ]
+}

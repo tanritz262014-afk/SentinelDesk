@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-10-04T10:00:00Z",
+    "event_id": 4624,
+    "hostname": "WS-FIN-01",
+    "username": "j.doe",
+    "source_ip": "10.20.1.15"
+  },
+  {
+    "event_id": 4625,
+    "hostname": "WS-FIN-01",
+    "username": "j.doe"
+  },
+  {
+    "timestamp": "2026-10-04T10:01:00Z",
+    "event_id": "abc",
+    "hostname": "WS-FIN-01"
+  },
+  {
+    "timestamp": "2026-10-04T10:02:00Z",
+    "event_id": 4625,
+    "source_ip": "999.10.10.10"
+  },
+  {
+    "timestamp": "yesterday",
+    "event_id": 4624
+  },
+  "this row is a plain string, not an event object",
+  {
+    "timestamp": "2026-10-04T10:03:00Z",
+    "event_id": 4625,
+    "hostname": {
+      "name": "nested objects are not allowed"
+    }
+  },
+  {
+    "timestamp": "2026-10-04T10:04:00Z",
+    "event_id": 4634,
+    "hostname": "WS-FIN-01",
+    "username": "j.doe"
+  }
+]

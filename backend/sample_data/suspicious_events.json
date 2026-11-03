@@ -1,0 +1,111 @@
+{
+  "description": "SYNTHETIC demo data: brute force followed by a successful logon, a new account and a service installed from a public folder. No real users, hosts or files.",
+  "events": [
+    {
+      "timestamp": "2026-10-01T08:55:00Z",
+      "event_id": 4624,
+      "hostname": "WS-FIN-01",
+      "username": "j.doe",
+      "source_ip": "10.20.1.15",
+      "logon_type": "2",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-01T09:15:02Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:15:16Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:15:31Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:15:43Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:16:00Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:16:15Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:16:37Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:17:10Z",
+      "event_id": 4625,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account failed to log on. Failure reason: unknown user name or bad password."
+    },
+    {
+      "timestamp": "2026-10-01T09:17:41Z",
+      "event_id": 4624,
+      "hostname": "SRV-FILE-01",
+      "username": "admin.backup",
+      "source_ip": "203.0.113.45",
+      "logon_type": "3",
+      "message": "An account was successfully logged on."
+    },
+    {
+      "timestamp": "2026-10-01T09:24:05Z",
+      "event_id": 4720,
+      "hostname": "SRV-FILE-01",
+      "username": "svc_support2",
+      "subject_username": "admin.backup",
+      "message": "A user account was created. Subject: admin.backup. New account: svc_support2."
+    },
+    {
+      "timestamp": "2026-10-01T09:31:12Z",
+      "event_id": 7045,
+      "hostname": "SRV-FILE-01",
+      "service_name": "WinUpdateHelper",
+      "service_path": "C:\\Users\\Public\\Downloads\\winupdate_helper.exe",
+      "message": "A service was installed in the system. Service start type: auto start. Account: LocalSystem."
+    }
+  ]
+}

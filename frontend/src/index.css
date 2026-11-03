@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reusable building blocks for the dark SOC theme */
+@layer components {
+  .card {
+    @apply rounded-xl border border-slate-800 bg-slate-900/70 p-5 shadow-lg shadow-black/20;
+  }
+  .page-title {
+    @apply text-2xl font-semibold tracking-tight text-slate-100;
+  }
+  .page-subtitle {
+    @apply mt-1 text-sm text-slate-400;
+  }
+}
+
+body {
+  @apply bg-slate-950 text-slate-200 antialiased;
+}
+
+/* Form controls and tables shared by all pages */
+@layer components {
+  .input {
+    @apply w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-200 placeholder-slate-500 focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 disabled:opacity-50;
+  }
+  .label {
+    @apply mb-1 block text-xs font-medium uppercase tracking-wider text-slate-400;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-brand-700 text-white hover:bg-brand-600;
+  }
+  .btn-secondary {
+    @apply btn border border-slate-700 bg-slate-800 text-slate-200 hover:bg-slate-700;
+  }
+  .btn-danger {
+    @apply btn bg-danger-600 text-white hover:bg-danger-500;
+  }
+  .table-wrap {
+    @apply overflow-x-auto rounded-lg border border-slate-800;
+  }
+  .data-table {
+    @apply min-w-full divide-y divide-slate-800 text-left text-sm;
+  }
+  .data-table th {
+    @apply whitespace-nowrap bg-slate-900 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-slate-400;
+  }
+  .data-table td {
+    @apply px-3 py-2 align-top text-slate-300;
+  }
+  .data-table tbody tr {
+    @apply hover:bg-slate-800/40;
+  }
+  .section-title {
+    @apply text-sm font-semibold text-slate-200;
+  }
+}
+
+/* Softer card shadow on the light theme (the dark-theme shadow looks heavy on white). */
+:root[data-theme="light"] .card {
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.08);
+}
